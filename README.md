@@ -208,7 +208,7 @@ Lo que solo se ve en pantalla (los colores de los marcos, el banner dorado y las
 | 4 | **Símbolos `ephemeral` y `shy` (29 sep).** Encogimiento hasta el punto; alternancia de visibilidad; regla de jackpot con símbolos escondidos. | Tamaños 48→4 y alternancia comprobados; `isJackpot()` no cambia. | [x] |
 | 5 | **Tipo propio y revisión visual (30 sep).** `TurboWheel` (avanza el doble); distinción visual de los tipos; captura con pantalla real. | Los tipos se ven distintos; `solve` y `simulate` siguen igual. | [x] |
 | 6 | **Pruebas y aceptación (1 – 2 oct).** `SlotMachineC4Test` (13), `SlotMachineCC4Test` (3), 2 pruebas de aceptación (manuales y automatizadas en `SlotMachineAcceptanceTest`), validación con 15 errores introducidos, documentación. | Todas las pruebas verdes; guion de aceptación ejecutado paso a paso. | [x] 13 + 3 pruebas JUnit 4 |
-| 7 | **Retrospectiva y entrega (3 oct).** Diagramas en Astah, publicación en Git y entrega en Moodle. | Diagramas exportados, repositorio actualizado y `.txt` publicado. | [ ] Falta publicar en Git y subir el `.txt` |
+| 7 | **Retrospectiva y entrega (3 oct).** Diagramas en Astah, publicación en Git y entrega en Moodle. | Diagramas exportados, repositorio actualizado y `.txt` publicado. | [x] |
 
 ---
 
