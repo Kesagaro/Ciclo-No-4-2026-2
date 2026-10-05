@@ -1,0 +1,9 @@
+#BlueJ class context
+#Sun Oct 04 21:17:31 COT 2026
+comment0.target=NormalWheel
+comment0.text=\r\n Rueda normal\: la del ciclo 3. Se puede bloquear, intercambiar y eliminar,\r\n y avanza los pasos que se le piden. Marco azul.\r\n\r\n @author BlancoS-GarzonR\r\n @version 1.0\r\n
+comment1.params=x y
+comment1.target=NormalWheel(int, int)
+comment1.text=\r\n Crea una rueda normal vac\u00EDa e invisible.\r\n\r\n @param x posici\u00F3n horizontal del marco\r\n @param y posici\u00F3n vertical del marco\r\n
+comment2.target=java.lang.String getType()
+numComments=3

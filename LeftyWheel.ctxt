@@ -1,0 +1,12 @@
+#BlueJ class context
+#Sun Oct 04 21:17:31 COT 2026
+comment0.target=LeftyWheel
+comment0.text=\r\n Rueda zurda\: si tiene otra rueda a su izquierda, al girar se coloca en el\r\n mismo s\u00EDmbolo que esa rueda (la copia). Si es la primera, gira como una normal.\r\n Marco verde.\r\n\r\n <p>Con spin() (todas las ruedas) se gira de izquierda a derecha, as\u00ED que la zurda\r\n copia a su vecina ya girada. Si est\u00E1 bloqueada, no gira ni copia.\r\n\r\n @author BlancoS-GarzonR\r\n @version 1.0\r\n
+comment1.params=x y
+comment1.target=LeftyWheel(int, int)
+comment1.text=\r\n Crea una rueda zurda vac\u00EDa e invisible.\r\n\r\n @param x posici\u00F3n horizontal del marco\r\n @param y posici\u00F3n vertical del marco\r\n
+comment2.target=java.lang.String getType()
+comment3.target=java.lang.String frameColor()
+comment4.target=boolean followLeft()
+comment4.text=Copia el s\u00EDmbolo de la vecina de la izquierda, si la hay.
+numComments=5

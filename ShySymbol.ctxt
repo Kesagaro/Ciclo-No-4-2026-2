@@ -1,0 +1,22 @@
+#BlueJ class context
+#Sun Oct 04 21:17:31 COT 2026
+comment0.target=ShySymbol
+comment0.text=\r\n S\u00EDmbolo t\u00EDmido\: cada vez que una rueda lo selecciona (al girar o con\r\n placeSymbol) cambia entre visible e invisible. Se dibuja como un tri\u00E1ngulo.\r\n\r\n <p>Que est\u00E9 escondido solo afecta al dibujo\: su color sigue contando para\r\n configuration(), distinctSymbols() e isJackpot().\r\n\r\n @author BlancoS-GarzonR\r\n @version 1.0\r\n
+comment1.params=color
+comment1.target=ShySymbol(java.lang.String)
+comment1.text=\r\n Crea un s\u00EDmbolo t\u00EDmido, invisible y todav\u00EDa no escondido.\r\n\r\n @param color color del tri\u00E1ngulo\r\n
+comment10.target=void place()
+comment10.text=Coloca la punta del tri\u00E1ngulo en el centro superior del s\u00EDmbolo.
+comment2.target=java.lang.String getType()
+comment3.target=boolean isShown()
+comment4.params=x y
+comment4.target=void moveTo(int, int)
+comment5.target=void makeVisible()
+comment6.target=void makeInvisible()
+comment7.target=void onSpin()
+comment7.text=Un giro lo seleccion\u00F3\: cambia entre mostrado y escondido.
+comment8.target=void onPlaced()
+comment8.text=placeSymbol lo seleccion\u00F3\: cambia entre mostrado y escondido.
+comment9.target=void toggle()
+comment9.text=Cambia el estado y actualiza el dibujo si la rueda lo estaba mostrando.
+numComments=11

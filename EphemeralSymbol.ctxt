@@ -1,0 +1,18 @@
+#BlueJ class context
+#Sun Oct 04 21:17:31 COT 2026
+comment0.target=EphemeralSymbol
+comment0.text=\r\n S\u00EDmbolo ef\u00EDmero\: se encoge cada vez que un giro lo deja seleccionado,\r\n hasta quedar como un punto. Se dibuja como un disco de color dentro de un\r\n aro negro, as\u00ED se distingue de un s\u00EDmbolo normal aunque todav\u00EDa no se haya encogido.\r\n\r\n <p>Nunca baja del tama\u00F1o m\u00EDnimo (el punto) y no recupera su tama\u00F1o.\r\n\r\n @author BlancoS-GarzonR\r\n @version 1.0\r\n
+comment1.params=color
+comment1.target=EphemeralSymbol(java.lang.String)
+comment1.text=\r\n Crea un s\u00EDmbolo ef\u00EDmero invisible con el tama\u00F1o inicial.\r\n\r\n @param color color del disco\r\n
+comment2.target=java.lang.String getType()
+comment3.target=int getSize()
+comment4.params=x y
+comment4.target=void moveTo(int, int)
+comment5.target=void makeVisible()
+comment6.target=void makeInvisible()
+comment7.target=void onSpin()
+comment7.text=Encoge el disco un paso, sin bajar del tama\u00F1o m\u00EDnimo.
+comment8.target=void centerDisc()
+comment8.text=Deja el disco centrado dentro del aro.
+numComments=9

@@ -1,0 +1,15 @@
+#BlueJ class context
+#Sun Oct 04 21:17:31 COT 2026
+comment0.target=SlotMachineAcceptanceTest
+comment0.text=\r\n Aqu\u00ED pasamos a c\u00F3digo las dos pruebas de aceptaci\u00F3n que vamos a mostrar en la\r\n presentaci\u00F3n (est\u00E1n explicadas en el README). Son los mismos pasos, pero sin\r\n abrir la ventana\: en lugar de mirar la pantalla, revisamos lo que responde la\r\n m\u00E1quina (configuration, ok, lock, isJackpot) y c\u00F3mo est\u00E1n los s\u00EDmbolos.\r\n\r\n <p>Cada prueba parte de una historia de usuario y solo pasa si todos\r\n sus pasos dan lo que esperamos.\r\n\r\n @author BlancoS-GarzonR\r\n @version 1.0\r\n
+comment1.target=void shouldAcceptWheelTypes()
+comment1.text=\r\n Historia 1\: como jugador quiero ruedas de distintos tipos para variar el juego\:\r\n una que copie a la de su izquierda (lefty), una que no se deje bloquear,\r\n intercambiar ni eliminar (rebel) y una que gire el doble (turbo).\r\n
+comment2.target=void shouldAcceptSymbolTypes()
+comment2.text=\r\n Historia 2\: como jugador quiero s\u00EDmbolos de distintos tipos para que el juego se\r\n vea distinto\: uno que se encoja en cada giro hasta ser un punto (ephemeral) y uno\r\n que se esconda y se muestre cada vez que se selecciona (shy).\r\n
+comment3.params=sm wheel
+comment3.target=int sizeOnWheel(SlotMachine, int)
+comment3.text=Tama\u00F1o del s\u00EDmbolo que muestra la rueda (la primera es la 1).
+comment4.params=sm wheel
+comment4.target=boolean shownOnWheel(SlotMachine, int)
+comment4.text=Dice si el s\u00EDmbolo que muestra la rueda se est\u00E1 dibujando.
+numComments=5

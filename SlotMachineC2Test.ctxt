@@ -1,0 +1,33 @@
+#BlueJ class context
+#Sun Oct 04 21:17:31 COT 2026
+comment0.target=SlotMachineC2Test
+comment0.text=\r\n Pruebas unitarias del Ciclo 2 para {@code SlotMachine}.\r\n Todas las pruebas corren en modo invisible.\r\n\r\n <p>Convenci&\#243;n de nombres\:\r\n <ul>\r\n   <li>{@code shouldXxx} &mdash; comportamiento esperado (happy path)</li>\r\n   <li>{@code shouldNotXxx} &mdash; comportamiento ante precondiciones inv&\#225;lidas</li>\r\n </ul>\r\n\r\n @author BlancoS-GarzonR\r\n @version 2.0\r\n
+comment1.target=void shouldSwapWheels()
+comment1.text=swap intercambia la configuracion visible de dos ruedas.
+comment10.target=void shouldNotSpinStepsWithNoWheels()
+comment10.text=spin(wheel, steps) sin ruedas falla.
+comment11.target=void shouldSetConfigurationWithArray()
+comment11.text=spin(String[]) configura la maquina con los colores indicados.
+comment12.target=void shouldNotSetConfigWithWrongArraySize()
+comment12.text=spin(String[]) con arreglo de tamano incorrecto falla.
+comment13.target=void shouldNotSetConfigWithUnknownColor()
+comment13.text=spin(String[]) con color inexistente falla.
+comment14.target=void shouldDetectJackpotAfterSetConfig()
+comment14.text=spin(String[]) que produce jackpot es detectado correctamente.
+comment2.target=void shouldNotSwapWithNoWheels()
+comment2.text=swap falla si la maquina no tiene ruedas.
+comment3.target=void shouldNotSwapSamePosition()
+comment3.text=swap con las mismas posiciones falla.
+comment4.target=void shouldNotSpinLockedWheel()
+comment4.text=lock impide que la rueda gire.
+comment5.target=void shouldSpinAfterUnlock()
+comment5.text=unlock restaura la capacidad de girar.
+comment6.target=void shouldNotLockWithNoWheels()
+comment6.text=lock sobre maquina vacia falla.
+comment7.target=void shouldNotUnlockWithNoWheels()
+comment7.text=unlock sobre maquina vacia falla.
+comment8.target=void shouldSpinNSteps()
+comment8.text=spin(wheel, steps) avanza la rueda el numero exacto de pasos.
+comment9.target=void shouldNotSpinStepsOnLockedWheel()
+comment9.text=spin(wheel, steps) en rueda bloqueada falla.
+numComments=15

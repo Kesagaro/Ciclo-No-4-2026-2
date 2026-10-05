@@ -1,0 +1,9 @@
+#BlueJ class context
+#Sun Oct 04 21:17:31 COT 2026
+comment0.target=SlotMachineCC2Test
+comment0.text=\r\n Pruebas de unidad compartidas del Ciclo 2 para {@code SlotMachine}.\r\n Todas las pruebas corren en modo invisible.\r\n\r\n <p>Naming\: {@code accordingBlancoSGarzonRShould...}\r\n\r\n @author BlancoS-GarzonR\r\n @version 2.0\r\n
+comment1.target=void accordingBlancoSGarzonRShouldSwapWheelsCorrectly()
+comment1.text=\r\n Verifica que swap intercambia correctamente la configuracion visible\r\n de dos ruedas distintas.\r\n\r\n Autores\: BlancoS-GarzonR\r\n
+comment2.target=void accordingBlancoSGarzonRShouldNotSpinLockedWheel()
+comment2.text=\r\n Verifica que una rueda bloqueada no puede girar con spin(wheel).\r\n\r\n Autores\: BlancoS-GarzonR\r\n
+numComments=3

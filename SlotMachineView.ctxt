@@ -1,0 +1,22 @@
+#BlueJ class context
+#Sun Oct 04 21:17:31 COT 2026
+comment0.target=SlotMachineView
+comment0.text=\r\n Presentaci\u00F3n visual de la tragamonedas\: fondo oscuro y banner dorado\r\n de jackpot. Usa dos Rectangle del paquete shapes.\r\n\r\n @author BlancoS-GarzonR\r\n @version 1.0\r\n
+comment1.params=width height
+comment1.target=SlotMachineView(int, int)
+comment1.text=\r\n Crea la vista con las dimensiones indicadas. Inicia invisible.\r\n\r\n @param width  ancho total de la m\u00E1quina en p\u00EDxeles\r\n @param height alto total de la m\u00E1quina en p\u00EDxeles\r\n
+comment2.params=width height
+comment2.target=void resize(int, int)
+comment2.text=\r\n Ajusta el tama\u00F1o del fondo y el banner al nuevo ancho y alto.\r\n\r\n @param width  nuevo ancho en p\u00EDxeles\r\n @param height nuevo alto en p\u00EDxeles\r\n
+comment3.target=void showJackpot()
+comment3.text=\r\n Muestra el banner de jackpot. Solo act\u00FAa si el simulador est\u00E1 visible.\r\n
+comment4.target=void hideJackpot()
+comment4.text=Oculta el banner de jackpot.
+comment5.target=void makeVisible()
+comment5.text=Hace visible el fondo en el canvas.
+comment6.target=void makeInvisible()
+comment6.text=Oculta el fondo y el banner del canvas.
+comment7.params=rect toX toY fromX fromY
+comment7.target=void moveRect(Rectangle, int, int, int, int)
+comment7.text=Mueve rect de (fromX,fromY) a (toX,toY).
+numComments=8

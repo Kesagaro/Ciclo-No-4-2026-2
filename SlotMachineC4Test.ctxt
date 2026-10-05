@@ -1,0 +1,34 @@
+#BlueJ class context
+#Sun Oct 04 21:17:31 COT 2026
+comment0.target=SlotMachineC4Test
+comment0.text=\r\n Nuestras pruebas del Ciclo 4 (JUnit 4). Revisan que funcionen los tipos de rueda\r\n (normal, lefty, rebel, turbo) y de s\u00EDmbolo (normal, ephemeral, shy).\r\n\r\n <p>Todas usan la m\u00E1quina invisible, menos la \u00FAltima, que abre la ventana y se\r\n salta sola si no hay pantalla. Cada prueba revisa un comportamiento completo,\r\n y sus nombres empiezan con should.\r\n\r\n @author BlancoS-GarzonR\r\n @version 1.0\r\n
+comment1.target=void shouldCreateEveryWheelTypeAndRejectUnknownOnes()
+comment1.text=addWheel(type, pos) crea cada tipo, no distingue may\u00FAsculas y rechaza los tipos que no existen.
+comment10.target=void shouldShyToggleOnEverySelectionButKeepItsColor()
+comment10.text=El shy se esconde y se muestra cada vez que lo seleccionan (giro o placeSymbol), y su color sigue contando.
+comment11.target=void shouldKeepJackpotAndErrorRulesWithMixedTypes()
+comment11.text=Con tipos mezclados, el jackpot y los errores funcionan igual que antes.
+comment12.target=void shouldEveryTypeBeVisuallyDistinguishable()
+comment12.text=Cada tipo se distingue a simple vista\: un color de marco por rueda y una figura por s\u00EDmbolo.
+comment13.target=void shouldDrawAndSpinEveryTypeWithTheWindowOpen()
+comment13.text=Con la ventana abierta, una m\u00E1quina con todos los tipos gira, se oculta y se cierra sin errores.
+comment14.params=wheelTypes colors
+comment14.target=SlotMachine machine(java.lang.String[], java.lang.String[])
+comment14.text=Arma una m\u00E1quina con ruedas de esos tipos y s\u00EDmbolos normales de esos colores.
+comment2.target=void shouldCreateEverySymbolTypeAndRejectInvalidOnes()
+comment2.text=addSymbol(type, pos, color) crea cada tipo, rechaza tipos o colores inv\u00E1lidos, y delSymbol tambi\u00E9n borra el tipo.
+comment3.target=void shouldNewWheelsInheritSymbolTypes()
+comment3.text=Una rueda que se crea despu\u00E9s recibe los s\u00EDmbolos con su tipo, no como normales.
+comment4.target=void shouldLeftyCopyTheWheelOnItsLeft()
+comment4.text=La lefty copia a la rueda de su izquierda en spin(w), spin(w,k) y spin(); si no tiene vecina, gira normal.
+comment5.target=void shouldLeftyFollowTheCurrentLeftNeighbour()
+comment5.text=La lefty siempre copia a la vecina que tiene en ese momento, aunque se eliminen ruedas.
+comment6.target=void shouldRebelRefuseLockSwapAndDelete()
+comment6.text=La rebel rechaza lock, swap y delWheel sin cambiar nada, pero s\u00ED gira.
+comment7.target=void shouldLockReturnTheNumberOfLockedWheels()
+comment7.text=lock devuelve cu\u00E1ntas ruedas quedan bloqueadas, incluso cuando falla.
+comment8.target=void shouldTurboAdvanceTwiceAsFar()
+comment8.text=La turbo avanza el doble en spin(w), spin(w,k) y spin().
+comment9.target=void shouldEphemeralShrinkToADotAndStayThere()
+comment9.text=El ephemeral se encoge hasta ser un punto, solo cuando un giro lo deja seleccionado, y no vuelve a crecer.
+numComments=15

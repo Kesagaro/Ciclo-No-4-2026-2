@@ -1,0 +1,11 @@
+#BlueJ class context
+#Sun Oct 04 21:17:31 COT 2026
+comment0.target=SlotMachineCC4Test
+comment0.text=\r\n Pruebas compartidas del Ciclo 4 para SlotMachine.\r\n Solo usan los m\u00E9todos del diagrama del enunciado y los nombres de tipo que\r\n ah\u00ED aparecen ("normal", "lefty", "rebel", "ephemeral", "shy"), para que otro\r\n grupo pueda correrlas con su proyecto. Todas usan la m\u00E1quina invisible.\r\n\r\n <p>Los nombres empiezan con accordingBlancoSGarzonRShould.\r\n\r\n @author BlancoS-GarzonR\r\n @version 1.0\r\n
+comment1.target=void accordingBlancoSGarzonRShouldLeftyWheelCopyItsLeftNeighbour()
+comment1.text=\r\n Una rueda lefty con otra a su izquierda queda mostrando el mismo\r\n s\u00EDmbolo que ella despu\u00E9s de girar.\r\n\r\n Autores\: BlancoS-GarzonR\r\n
+comment2.target=void accordingBlancoSGarzonRShouldRebelWheelRefuseLockSwapAndDelete()
+comment2.text=\r\n Una rueda rebel no se deja bloquear, intercambiar ni eliminar, y la\r\n m\u00E1quina queda igual despu\u00E9s de cada intento.\r\n\r\n Autores\: BlancoS-GarzonR\r\n
+comment3.target=void accordingBlancoSGarzonRShouldRejectUnknownTypes()
+comment3.text=\r\n addWheel y addSymbol con un tipo que no existe fallan y no cambian la m\u00E1quina.\r\n\r\n Autores\: BlancoS-GarzonR\r\n
+numComments=4

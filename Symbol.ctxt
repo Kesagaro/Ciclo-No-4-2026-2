@@ -1,0 +1,27 @@
+#BlueJ class context
+#Sun Oct 04 21:17:31 COT 2026
+comment0.target=Symbol
+comment0.text=\r\n Un s\u00EDmbolo de la tragamonedas, identificado por su color.\r\n\r\n <p>Ciclo 4\: es la base de los tipos de s\u00EDmbolo (NormalSymbol, EphemeralSymbol,\r\n ShySymbol). Cada tipo decide c\u00F3mo se dibuja y qu\u00E9 hace cuando una rueda\r\n lo selecciona. Se crean con SymbolFactory.\r\n\r\n @author BlancoS-GarzonR\r\n @version 2.0\r\n
+comment1.params=color
+comment1.target=Symbol(java.lang.String)
+comment1.text=\r\n Crea un s\u00EDmbolo invisible del color indicado.\r\n\r\n @param color nombre del color (por ejemplo "red") o hexadecimal ("\#ff6600")\r\n
+comment10.target=void onPlaced()
+comment10.text=\r\n Se llama cuando placeSymbol deja este s\u00EDmbolo seleccionado.\r\n Por defecto no hace nada.\r\n
+comment2.target=java.lang.String getColor()
+comment2.text=\r\n Color del s\u00EDmbolo.\r\n\r\n @return el color\r\n
+comment3.target=java.lang.String getType()
+comment3.text=\r\n Nombre del tipo de s\u00EDmbolo ("normal", "ephemeral" o "shy").\r\n\r\n @return el nombre del tipo\r\n
+comment4.target=int getSize()
+comment4.text=\r\n Tama\u00F1o actual de la figura en p\u00EDxeles.\r\n\r\n @return el tama\u00F1o\r\n
+comment5.target=boolean isShown()
+comment5.text=\r\n Dice si el s\u00EDmbolo se dibuja cuando la rueda est\u00E1 visible.\r\n Solo el s\u00EDmbolo t\u00EDmido (ShySymbol) puede responder false.\r\n\r\n @return true si se dibuja\r\n
+comment6.params=x y
+comment6.target=void moveTo(int, int)
+comment6.text=\r\n Mueve el s\u00EDmbolo a una posici\u00F3n (sirve visible o invisible).\r\n\r\n @param x posici\u00F3n horizontal\r\n @param y posici\u00F3n vertical\r\n
+comment7.target=void makeVisible()
+comment7.text=Muestra el s\u00EDmbolo.
+comment8.target=void makeInvisible()
+comment8.text=Oculta el s\u00EDmbolo.
+comment9.target=void onSpin()
+comment9.text=\r\n Se llama cuando un giro deja este s\u00EDmbolo seleccionado.\r\n Por defecto no hace nada; cada tipo lo cambia si lo necesita.\r\n
+numComments=11

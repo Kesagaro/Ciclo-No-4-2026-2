@@ -1,0 +1,9 @@
+#BlueJ class context
+#Sun Oct 04 21:17:31 COT 2026
+comment0.target=SlotMachineContestCTest
+comment0.text=\r\n Pruebas de unidad compartidas del Ciclo 3 para SlotMachineContest.\r\n Todas las pruebas se ejecutan en modo invisible (sin abrir ventanas).\r\n\r\n Nombre de cada prueba\: accordingBlancoSGarzonRShould...\r\n\r\n @author BlancoS-GarzonR\r\n @version 3.1\r\n
+comment1.target=void accordingBlancoSGarzonRShouldSolveReturnValidSequenceForN5()
+comment1.text=\r\n Verifica que solve con n\=5 retorna una secuencia dentro del l\u00EDmite\r\n de 10 000 acciones y con valores v\u00E1lidos (rueda entre 1 y n, pasos positivos).\r\n\r\n Autores\: BlancoS-GarzonR\r\n
+comment2.target=void accordingBlancoSGarzonRShouldSolveReturnValidSequenceForN3()
+comment2.text=\r\n Verifica que solve con n\=3 retorna una secuencia dentro del l\u00EDmite\r\n y con valores v\u00E1lidos (rueda entre 1 y n, pasos positivos).\r\n\r\n Autores\: BlancoS-GarzonR\r\n
+numComments=3

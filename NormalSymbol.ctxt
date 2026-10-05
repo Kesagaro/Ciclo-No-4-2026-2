@@ -1,0 +1,13 @@
+#BlueJ class context
+#Sun Oct 04 21:17:31 COT 2026
+comment0.target=NormalSymbol
+comment0.text=\r\n S\u00EDmbolo normal\: un c\u00EDrculo del color indicado, sin comportamiento especial.\r\n Es el \u00FAnico tipo que usan SlotMachine(n), solve y simulate.\r\n\r\n @author BlancoS-GarzonR\r\n @version 1.0\r\n
+comment1.params=color
+comment1.target=NormalSymbol(java.lang.String)
+comment1.text=\r\n Crea un s\u00EDmbolo normal invisible.\r\n\r\n @param color nombre del color o hexadecimal\r\n
+comment2.target=java.lang.String getType()
+comment3.params=x y
+comment3.target=void moveTo(int, int)
+comment4.target=void makeVisible()
+comment5.target=void makeInvisible()
+numComments=6

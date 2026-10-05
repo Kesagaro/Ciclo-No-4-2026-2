@@ -1,0 +1,12 @@
+#BlueJ class context
+#Sun Oct 04 21:17:31 COT 2026
+comment0.target=TurboWheel
+comment0.text=\r\n Rueda turbo (tipo propuesto por el equipo)\: avanza el doble de lo que se\r\n le pide. spin(rueda) avanza 2 s\u00EDmbolos y spin(rueda, k) avanza 2k. Marco magenta.\r\n\r\n @author BlancoS-GarzonR\r\n @version 1.0\r\n
+comment1.params=x y
+comment1.target=TurboWheel(int, int)
+comment1.text=\r\n Crea una rueda turbo vac\u00EDa e invisible.\r\n\r\n @param x posici\u00F3n horizontal del marco\r\n @param y posici\u00F3n vertical del marco\r\n
+comment2.target=java.lang.String getType()
+comment3.target=java.lang.String frameColor()
+comment4.params=steps
+comment4.target=int effectiveSteps(int)
+numComments=5

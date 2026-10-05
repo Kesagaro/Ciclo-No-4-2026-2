@@ -1,0 +1,23 @@
+#BlueJ class context
+#Sun Oct 04 21:17:31 COT 2026
+comment0.target=SlotMachineContest
+comment0.text=\r\n Resuelve el problema de la tragamonedas de la marat\u00F3n ICPC 2025.\r\n\r\n Usa SlotMachine solo como herramienta de prueba y como simulador visual.\r\n No contiene la l\u00F3gica interna del simulador.\r\n\r\n Para resolver (solve)\: solo puede crear la m\u00E1quina, girar ruedas y\r\n consultar cu\u00E1ntos s\u00EDmbolos distintos hay visibles.\r\n\r\n Para simular (simulate)\: adem\u00E1s puede hacer visible o invisible la m\u00E1quina.\r\n\r\n Algoritmo\: la \u00FAnica informaci\u00F3n disponible es distinctSymbols(). Si se gira\r\n una rueda una vuelta completa, el conteo vale m en las posiciones cuyo s\u00EDmbolo\r\n ya tiene alguna otra rueda y m+1 en las dem\u00E1s. Eso revela, para cada rueda,\r\n qu\u00E9 s\u00EDmbolos est\u00E1n ocupados vistos desde su propia posici\u00F3n (un "perfil").\r\n Como todas las ruedas comparten el mismo orden de s\u00EDmbolos, los perfiles de\r\n dos ruedas son el mismo conjunto desplazado; el desplazamiento es la\r\n diferencia de posici\u00F3n entre las ruedas. Con esas diferencias se lleva cada\r\n rueda al s\u00EDmbolo de la rueda 1.\r\n\r\n Si el conjunto de s\u00EDmbolos ocupados es sim\u00E9trico (por ejemplo, cuando todas\r\n las ruedas muestran s\u00EDmbolos distintos) el desplazamiento no es \u00FAnico. En ese\r\n caso se mueve la rueda 1 hasta que el conteo cambie, lo que rompe la\r\n simetr\u00EDa, y se mide de nuevo.\r\n\r\n Los m\u00E9todos p\u00FAblicos son est\u00E1ticos, como indica el dise\u00F1o del enunciado\:\r\n SlotMachineContest.solve(n) y SlotMachineContest.simulate(n).\r\n\r\n @author BlancoS-GarzonR\r\n @version 3.2\r\n
+comment1.params=n
+comment1.target=int[][] solve(int)
+comment1.text=\r\n Resuelve el problema para una m\u00E1quina de n ruedas y n s\u00EDmbolos,\r\n creada con posiciones iniciales aleatorias. La m\u00E1quina es invisible.\r\n\r\n Solo usa\: crear la m\u00E1quina, girar ruedas y consultar distintos.\r\n\r\n @param n cantidad de ruedas y s\u00EDmbolos (m\u00EDnimo 2)\r\n @return lista de acciones {rueda, pasos} aplicadas hasta lograr el jackpot;\r\n         vac\u00EDa si n &lt; 2 (no hay nada que resolver) o si la m\u00E1quina ya empez\u00F3 en jackpot\r\n
+comment2.params=n
+comment2.target=void simulate(int)
+comment2.text=\r\n Simula visualmente la soluci\u00F3n del problema.\r\n Crea su propia m\u00E1quina con n ruedas, la hace visible y aplica\r\n el mismo algoritmo que solve, mostrando la animaci\u00F3n de cada giro.\r\n Deja el banner de jackpot a la vista un momento y oculta la m\u00E1quina.\r\n Si n &lt; 2 no hay nada que simular y no abre ninguna ventana.\r\n\r\n Solo usa\: crear la m\u00E1quina, girar ruedas, consultar distintos,\r\n hacer visible y hacer invisible.\r\n\r\n @param n cantidad de ruedas y s\u00EDmbolos (m\u00EDnimo 2)\r\n
+comment3.params=sm n
+comment3.target=int[][] solveOn(SlotMachine, int)
+comment3.text=\r\n Aplica el algoritmo sobre una m\u00E1quina ya creada. Es de paquete para que las\r\n pruebas de unidad puedan comprobar el jackpot sobre la misma m\u00E1quina.\r\n\r\n @param sm m\u00E1quina de n ruedas y n s\u00EDmbolos\r\n @param n  cantidad de ruedas y s\u00EDmbolos\r\n @return lista de acciones {rueda, pasos} aplicadas\r\n
+comment4.params=profiles n
+comment4.target=int[] relativeOffsets(boolean[][], int)
+comment4.text=\r\n Calcula, para cada rueda, cu\u00E1ntas posiciones est\u00E1 adelante de la rueda 1.\r\n\r\n @return arreglo con la diferencia de cada rueda respecto a la rueda 1,\r\n         o null si alguna diferencia no es \u00FAnica (conjunto sim\u00E9trico)\r\n
+comment5.params=a b r n
+comment5.target=boolean sameShifted(boolean[], boolean[], int, int)
+comment5.text=Indica si a[x] \=\= b[(x + r) % n] para todo x.
+comment6.params=milliseconds
+comment6.target=void pause(int)
+comment6.text=Detiene la ejecuci\u00F3n el n\u00FAmero de milisegundos indicado.
+numComments=7
