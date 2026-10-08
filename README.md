@@ -115,13 +115,7 @@ Ciclo3/
 ├── Documents/
 │   ├── Cic4/
 │   │   ├── README_Ciclo4.md           ← Este archivo
-│   │   ├── astah_clases_c4.js         ← Script de Astah que genera el diagrama de clases
-│   │   ├── astah_secuencias_c4.js     ← Script de Astah que genera los 9 diagramas de secuencia
-│   │   ├── slotMachinec4.asta         ← Diagrama de clases y diagramas de secuencia ya generados
 │   │   ├── RetrospectivaFinal.md      ← Retrospectiva de todos los ciclos
-│   │   ├── !DOPO-I04-2026-02.pdf      ← Enunciado del Ciclo 4
-│   │   ├── Funcionales.png            ← Casos de uso del enunciado
-│   │   ├── Design.png                 ← Diagrama de clases del enunciado
 │   │   └── demo_tipos_1.png, demo_tipos_2.png  ← Capturas de la máquina
 │   └── BlancoS-GarzonR.txt            ← URL del repositorio para Moodle
 └── slotMachine/
